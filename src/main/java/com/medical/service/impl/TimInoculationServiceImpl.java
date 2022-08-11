@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.TimInoculation;
 import com.medical.mapper.TimInoculationMapper;
-import com.medical.service.ITimInoculationService;
+import com.medical.service.TimInoculationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class TimInoculationServiceImpl extends ServiceImpl<TimInoculationMapper, TimInoculation> implements ITimInoculationService {
+public class TimInoculationServiceImpl extends ServiceImpl<TimInoculationMapper, TimInoculation> implements TimInoculationService {
 
 }

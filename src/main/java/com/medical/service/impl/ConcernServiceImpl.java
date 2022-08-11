@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Concern;
 import com.medical.mapper.ConcernMapper;
-import com.medical.service.IConcernService;
+import com.medical.service.ConcernService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class ConcernServiceImpl extends ServiceImpl<ConcernMapper, Concern> implements IConcernService {
+public class ConcernServiceImpl extends ServiceImpl<ConcernMapper, Concern> implements ConcernService {
 
 }

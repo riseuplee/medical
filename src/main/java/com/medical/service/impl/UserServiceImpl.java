@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.User;
 import com.medical.mapper.UserMapper;
-import com.medical.service.IUserService;
+import com.medical.service.UserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
 }

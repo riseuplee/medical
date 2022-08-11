@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Review;
 import com.medical.mapper.ReviewMapper;
-import com.medical.service.IReviewService;
+import com.medical.service.ReviewService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class ReviewServiceImpl extends ServiceImpl<ReviewMapper, Review> implements IReviewService {
+public class ReviewServiceImpl extends ServiceImpl<ReviewMapper, Review> implements ReviewService {
 
 }

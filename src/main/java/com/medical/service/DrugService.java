@@ -1,16 +1,16 @@
 package com.medical.service;
 
-import com.medical.entity.Registered;
+import com.medical.entity.Drug;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- * 预约挂号 服务类
+ * 药品 服务类
  * </p>
  *
  * @author JiaJieTang
  * @since 2022-08-11
  */
-public interface IRegisteredService extends IService<Registered> {
+public interface DrugService extends IService<Drug> {
 
 }

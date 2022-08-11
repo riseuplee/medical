@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Warehouse;
 import com.medical.mapper.WarehouseMapper;
-import com.medical.service.IWarehouseService;
+import com.medical.service.WarehouseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class WarehouseServiceImpl extends ServiceImpl<WarehouseMapper, Warehouse> implements IWarehouseService {
+public class WarehouseServiceImpl extends ServiceImpl<WarehouseMapper, Warehouse> implements WarehouseService {
 
 }

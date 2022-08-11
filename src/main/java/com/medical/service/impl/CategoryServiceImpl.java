@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Category;
 import com.medical.mapper.CategoryMapper;
-import com.medical.service.ICategoryService;
+import com.medical.service.CategoryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> implements ICategoryService {
+public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> implements CategoryService {
 
 }

@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Admin;
 import com.medical.mapper.AdminMapper;
-import com.medical.service.IAdminService;
+import com.medical.service.AdminService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements IAdminService {
+public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements AdminService {
 
 }

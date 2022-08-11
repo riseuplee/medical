@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author JiaJieTang
  * @since 2022-08-11
  */
-public interface IVaccineService extends IService<Vaccine> {
+public interface VaccineService extends IService<Vaccine> {
 
 }

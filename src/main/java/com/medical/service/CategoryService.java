@@ -1,16 +1,16 @@
 package com.medical.service;
 
-import com.medical.entity.Consulting;
+import com.medical.entity.Category;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- * 咨询表 服务类
+ * 药品分类 服务类
  * </p>
  *
  * @author JiaJieTang
  * @since 2022-08-11
  */
-public interface IConsultingService extends IService<Consulting> {
+public interface CategoryService extends IService<Category> {
 
 }

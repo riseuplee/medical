@@ -2,7 +2,7 @@ package com.medical.service.impl;
 
 import com.medical.entity.Hospital;
 import com.medical.mapper.HospitalMapper;
-import com.medical.service.IHospitalService;
+import com.medical.service.HospitalService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-08-11
  */
 @Service
-public class HospitalServiceImpl extends ServiceImpl<HospitalMapper, Hospital> implements IHospitalService {
+public class HospitalServiceImpl extends ServiceImpl<HospitalMapper, Hospital> implements HospitalService {
 
 }

@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author JiaJieTang
  * @since 2022-08-11
  */
-public interface IHospitalService extends IService<Hospital> {
+public interface HospitalService extends IService<Hospital> {
 
 }

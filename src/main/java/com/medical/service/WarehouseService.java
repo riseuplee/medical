@@ -1,16 +1,16 @@
 package com.medical.service;
 
-import com.medical.entity.Concern;
+import com.medical.entity.Warehouse;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- * 关注 服务类
+ * 医院仓库 服务类
  * </p>
  *
  * @author JiaJieTang
  * @since 2022-08-11
  */
-public interface IConcernService extends IService<Concern> {
+public interface WarehouseService extends IService<Warehouse> {
 
 }
