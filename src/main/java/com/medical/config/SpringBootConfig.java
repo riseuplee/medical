@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Configuration;
  * @Date: 2022/8/9 16:14
  * @Description:
  */
-@Configuration
-public class SpringBootConfig {
-    @Bean
-    public ServletWebServerFactory servletContainer(){
-        UndertowServletWebServerFactory undertow = new UndertowServletWebServerFactory();
-        return undertow;
-    }
-}
+//@Configuration
+//public class SpringBootConfig {
+//    @Bean
+//    public ServletWebServerFactory servletContainer(){
+//        UndertowServletWebServerFactory undertow = new UndertowServletWebServerFactory();
+//        return undertow;
+//    }
+//}
